@@ -1,0 +1,93 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+*/
+
+main {
+	width:90%;
+	margin: 0 auto;
+
+/*	border:1px solid black;*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.outer_wrapper{
+	display: flex;
+}
+
+.inner{
+	width:50%;
+	padding:10px;
+}
+
+.color-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between boxes */
+  width: 100%; /* Ensures it fills the parent container */
+  max-width: 800px; /* Optional: Adjust max width as needed */
+  margin: 0 auto; /* Centers the wrapper */
+}
+
+.color-box {
+  height: 100px; /* Adjust height as needed */
+  border-radius: 8px; /* Optional rounded corners */
+  flex-grow: 1;
+}
+
+/* 60% primary color */
+.primary {
+  flex: 6;
+  background-color: #3498db; /* Change to your primary color */
+}
+
+/* 30% secondary color */
+.secondary {
+  flex: 3;
+  background-color: #2ecc71; /* Change to your secondary color */
+}
+
+/* 10% accent color */
+.accent {
+  flex: 1;
+  background-color: #e74c3c; /* Change to your accent color */
+}
